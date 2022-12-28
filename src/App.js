@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import Header from "./components/header";
 import Footer from "./components/footer";
 import './App.css';
+// import {Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
@@ -11,7 +12,6 @@ function App() {
         centerNode={<div>center</div>}
         rightNode={<div>right</div>}
       />
-      <div>内容区</div>
       <Footer />
     </Fragment>
   );

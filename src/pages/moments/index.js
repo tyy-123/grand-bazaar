@@ -1,6 +1,6 @@
 import React, { ReactFragment } from 'react';
 
-const Auto = props => {
+const Moments = props => {
     return (
         <ReactFragment>
             <span>13345</span>
@@ -8,4 +8,4 @@ const Auto = props => {
     );
 };
 
-export default Auto;
+export default Moments;
